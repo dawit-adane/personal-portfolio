@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicon@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo"><span>Dawit</span></a>
+        <div id="menu-icon">
+           
+            <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#ffffff">
+                <path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z" />
+            </svg>
+        </div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#project">Project</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, <span>I'm Dawit Adane</span></h1>
+            <h3 class="animation">I'm <span></span></h3>
+            <p>Dawit Adane, a third-year Computer Science student passionate about
+                 web development and problem-solving. In this level, I'm learning web 
+                 programming to change my future.</p>
+                
+                <canvas id="logoCanvas" width="300" height="300"></canvas>
+            <div class="social-icons">
+                <a href="https://telegram.me/Mighty" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://github.com/dawit-adane" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://facebook.com/Dawit Adane" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://youtube.com/@Dawa_tech" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="dawa.jpg" alt="">
+        </div>
+    </section>
+    
+    <section class="project" id="project">
+        <h2>Projects</h2>
+        <div class="projects">
+            <h3>Calculator</h3>
+            <p>I created a calculator to perform mathematical operations using HTML, CSS, and JS.</p>
+        </div>
+        <div class="projects">
+            <h3>Survey Form</h3>
+            <p>I developed a simple survey form using HTML, CSS, and JS to gather information about life in university.</p>
+        </div>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <ul>
+                <li>Web Developer</li>
+                <li>Logo Designer</li>
+                <li>App Developer</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="">
+            <div class="input-group">
+    <div class="input-box">
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Middle Name">
+        <input type="text" placeholder="Last Name">
+        <input type="tel" placeholder="Phone Number">
+       <input type="email" placeholder="Email" pattern="[a-zA-Z0-9@%.\/]+" title="Allowed characters:
+        a-z, A-Z, 0-9, @, %, ., /">    </div>
+            <div class="input-group-2">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+ 
+  
+    <footer class="footer">
+        <div class="social">
+            <a href="https://telegram.me/Mighty" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+            <a href="https://github.com/dawit-adane" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://facebook.com/Dawit Adane" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://youtube.com/@Dawa_tech" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <p class="copyright">© 2025 Dawit Adane | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
